@@ -18,3 +18,13 @@ Use the `header` profile:
 ```sh
 mvn clean install -Pheader
 ```
+
+## Send data to Coveralls
+
+Use the `CI` profile:
+
+```sh
+mvn clean install -PCI
+```
+
+Don't forget to set the `coveralls.token` property.
