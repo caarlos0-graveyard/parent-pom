@@ -2,3 +2,19 @@ parent-pom [![Build Status](https://travis-ci.org/caarlos0/parent-pom.svg?branch
 ==========
 
 Just a parent pom project that I use in some projects.
+
+## Quality Assurance
+
+Use the `qulice` profile:
+
+```sh
+mvn clean install -Pqulice
+```
+
+## Add/Update license headers:
+
+Use the `header` profile:
+
+```sh
+mvn clean install -Pheader
+```
